@@ -24,6 +24,7 @@ Use Matplotlib to visualize the distribution of sentiment within the training da
 
 # Machine Learning Model
 Implement a CNN using TensorFlow for sentiment analysis
+
 <img width="429" alt="image" src="https://github.com/march250602/Covid19-tweet-sentiment-analysis/assets/68798300/4800364d-35d6-446f-ad5e-de550e772b93">
 
 # Model Evaluation
