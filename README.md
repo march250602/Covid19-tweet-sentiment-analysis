@@ -11,15 +11,18 @@ for data manipulation, visualization, and machine learning.
 
 # Data Collection and Preprocessing
 Clean and remove urls, html tags, digits, hashtags, mentions, and stop words using nltk.corpus
+
 <img width="614" alt="image" src="https://github.com/march250602/Covid19-tweet-sentiment-analysis/assets/68798300/57da4a75-9852-4e00-8071-d64a127aec9f">
 
 Implement a tokenizer to break down text data into tokens. This can enhance the efficiency of machine learning model.
+
 <img width="368" alt="image" src="https://github.com/march250602/Covid19-tweet-sentiment-analysis/assets/68798300/39c77e7c-5682-42b7-ae0f-478ced545979">
 
 
 
 # Explore Data
 Use Matplotlib to visualize the distribution of sentiment within the training data.
+
 <img width="373" alt="image" src="https://github.com/march250602/Covid19-tweet-sentiment-analysis/assets/68798300/9787bda7-c0b9-42b3-b022-16c89aef9ad4">
 
 # Machine Learning Model
