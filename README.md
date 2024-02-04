@@ -35,5 +35,7 @@ Implement a CNN using TensorFlow for sentiment analysis
 
 <img width="381" alt="image" src="https://github.com/march250602/Covid19-tweet-sentiment-analysis/assets/68798300/fc18c35f-8048-4c3a-93e0-92816821e030">
 
-The plots above can be shown the the intended number of epochs is 15, but after the first epoch, the model starts to have its val_accuracy decrease and its val_loss increase.
+The plots above show that the intended number of epochs is 15, but after the first epoch, the model starts to have its val_accuracy decrease and its val_loss increase.
+Despite the fact that accuracy is likely to decrease, the model shows high accuracy at 82.8%.
+
 
