@@ -30,6 +30,13 @@ Implement a CNN using TensorFlow for sentiment analysis
 
 <img width="429" alt="image" src="https://github.com/march250602/Covid19-tweet-sentiment-analysis/assets/68798300/4800364d-35d6-446f-ad5e-de550e772b93">
 
+To summarize the model :
+1) Input Layer: The model takes sequences as input using an embedding layer (=16).
+2) Convolutional Layers: Conv1D layers with 32 filters of size 3 and ReLU activation are used to capture local patterns in the input sequences.
+3) Max-Pooling Layers: MaxPooling1D layers with pool size 2 are applied to downsample the spatial dimensions, reducing the length of the sequence.
+4) Global Max Pooling: The GlobalMaxPooling1D layer is used to obtain a fixed-size representation of the sequence.
+5) Output Layer: A Dense layer with 3 units and softmax activation is employed for multi-class classification (Positive, Neutral, Negative).
+
 # Model Evaluation
 <img width="428" alt="image" src="https://github.com/march250602/Covid19-tweet-sentiment-analysis/assets/68798300/2279fe25-b387-41ff-984b-9a385ebcc24c">
 
